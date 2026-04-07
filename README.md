@@ -18,7 +18,9 @@ Membangun server VoIP sederhana menggunakan **Asterisk** pada sistem operasi **U
 
 ### Kriteria Pengujian
 - Masing-masing extension berhasil melakukan registrasi ke server Asterisk.
-- Panggilan antar extension berhasil dilakukan menggunakan aplikasi **Zoiper**.
+- Panggilan antar extension berhasil dilakukan menggunakan aplikasi **Zoiper**. Hasil yang diharapkan:
+
+   ![alt text](img/photo_2026-04-07_20-40-00.jpg)
 
 ### Tentang Asterisk
 Asterisk adalah Private Branch Exchange (PBX) open-source yang memungkinkan pengelolaan panggilan VoIP. Penambahan extension dilakukan melalui file konfigurasi seperti `sip.conf` (chan_sip) atau `pjsip.conf` (chan_pjsip). Zoiper berperan sebagai User Agent untuk meregistrasi dan melakukan panggilan.
